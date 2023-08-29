@@ -1,0 +1,325 @@
+.bg-theme {
+	background-color: #0400ff;
+}
+.custom-badge-sm {
+	background: #0400ff;
+}
+.badge-theme {
+	background-color: #0400ff;
+}
+.btn-theme {
+	background-color: #0400ff;
+}
+.btn-theme:hover, .btn-theme:focus {
+	background-color: #0400ff;
+}
+.search-btn .btn {
+    border: 1px solid #0400ff;
+    background: #0400ff;
+}
+#searchResult li:hover {
+	color: #0007e6;
+}
+.cate-title h3 span i {
+    color: #0400ff;
+}
+.viewall a:hover{
+    color: #0007e6;
+}
+.howwork .iconround {
+    color: #0400ff;
+}
+.howwork .iconround .steps {
+    background: #0400ff;
+}
+.view-icons a:hover, .view-icons a:focus  {
+    color: #0007e6;
+}
+.view-icons a.active {
+    color: #0400ff;
+}
+.view-icons a.active:hover, .view-icons a.active:focus {
+    color: #0007e6;
+}
+.pagination > ul li.active a {
+    background: #0400ff;
+    border-color: #0400ff;
+}
+.tags > li {
+    background: #0400ff;
+}
+.notificationlist a {
+    color: #0400ff;
+}
+.jstinput > a {
+    background: #0400ff;
+}
+.updatebtn {
+    background: #0400ff;
+}
+.updatebtn:hover {
+    color: #0400ff;
+    border: 1px solid #0400ff;
+}
+.dash-widget.dash-bg-1 {
+    background-color: #0400ff;
+}
+.pagination > ul li a:hover {
+    background: #0400ff;
+    border-color: #0400ff;
+}
+.search-btn button:hover{
+    background: #0007e6;
+}
+.search-cat a:hover {
+    background: #0400ff;
+    border-color: #0400ff;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #0400ff;
+    border: 1px solid #0400ff;
+}
+.nav-pills .nav-link.active:hover, .nav-pills .show > .nav-link:hover {
+    background: #0400ff;
+}
+.nav-pills .nav-link {
+    color: #0400ff;
+    border: 1px solid #0400ff;
+}
+.msg_cotainer_send {
+    background-color: #0400ff;
+}
+.range-slider.ui-slider .ui-slider-range {
+    background: #0400ff;
+}
+
+/*-----------------
+    Nav Tabs
+-----------------------*/
+
+.nav-tabs.nav-tabs-solid > .active > a,
+.nav-tabs.nav-tabs-solid > .active > a:hover,
+.nav-tabs.nav-tabs-solid > .active > a:focus {
+    background-color: #0400ff;
+    border-color: #0400ff;
+}
+.nav-tabs.nav-tabs-solid > li > a.active,
+.nav-tabs.nav-tabs-solid > li > a.active:hover,
+.nav-tabs.nav-tabs-solid > li > a.active:focus {
+    background-color: #0400ff;
+    border-color: #0400ff;
+}
+.nav-tabs.nav-tabs-top > li > a.active,
+.nav-tabs.nav-tabs-top > li > a.active:hover,
+.nav-tabs.nav-tabs-top > li > a.active:focus {
+    border-top-color: #0400ff;
+}
+.nav-tabs.nav-tabs-bottom > li > a.active, 
+.nav-tabs.nav-tabs-bottom > li > a.active:hover, 
+.nav-tabs.nav-tabs-bottom > li > a.active:focus {
+    border-bottom-color: #0400ff;
+}
+.account-footer a {
+    color: #0400ff;
+}
+
+/*-----------------
+    Footer
+-----------------------*/
+
+.footer-contact-info .footer-address span i {
+    color: #0400ff;
+}
+.footer-contact-info p i {
+    color: #0400ff;
+}
+.footer .footer-bottom .copyright-text p a {
+    color: #0400ff;
+}
+.footer .footer-bottom .copyright-text p a:hover {
+    color: #0400ff;
+}
+.footer .social-icon ul li a:hover {
+    background-color: rgba(4, 0, 255, 0.05);
+    color: #0400ff !important;
+}
+.policy-menu li a:hover,
+.policy-menu li a:focus {
+    color: #0400ff;
+}
+
+/*-----------------
+    Header
+-----------------------*/
+
+.main-nav > li.active > a {
+    color: #0400ff;
+}
+.header-navbar-rht > li a.header-login:hover, .header-navbar-rht > li a.header-login:focus {
+    background-color: #0007e6;
+    border-color: #0007e6;
+}
+.main-nav > li > a::after {
+    background: #0400ff;
+}
+.header-navbar-rht li > .dropdown-menu a:hover {
+    color: #0400ff;
+}
+.header-navbar-rht li > a.header-login {
+    background-color: #0400ff;
+}
+.header-navbar-rht .dropdown-menu .dropdown-item:hover {
+    color: #0400ff;
+}
+
+/*-----------------
+    Mobile Menu
+-----------------------*/
+
+.menu-close {
+    color: #0400ff;
+}
+.settings-menu ul li a.active {
+    color: #0400ff !important;
+}
+.pricing-box .pricing-selected .card {
+    background-color: #0400ff;
+    border-color: #0400ff;
+}
+.pricing-box .pricing-selected .btn {
+    color: #0400ff;
+}
+.btn.btn-white {
+    color: #0400ff !important;
+}
+.btn-primary {
+    background-color: #0400ff;
+    border-color: #0400ff;
+}
+.btn-primary {
+    background-color: #0400ff;
+    border: 1px solid #0400ff;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.active,
+.btn-primary:active,
+.open > .dropdown-toggle.btn-primary {
+    background-color: #0007e6;
+    border: 1px solid #0007e6;
+}
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary.focus:active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover {
+    background-color: #0007e6;
+    border: 1px solid #0007e6;
+}
+.btn-primary.active:not(:disabled):not(.disabled),
+.btn-primary:active:not(:disabled):not(.disabled),
+.show > .btn-primary.dropdown-toggle {
+    background-color: #0007e6;
+    border-color: #0007e6;
+    color: #fff;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #0400ff;
+    border-color: #0400ff;
+}
+.service-widget .service-content .title a:hover, .service-widget .service-content .title a:hover {
+    color: #0400ff;
+}
+.section-header h2::after {
+    background: #0400ff;
+}
+.preloader-square-swapping .cssload-square-green {
+    background: #0400ff;
+}
+.fav-link:hover {
+	color: #0400ff;
+}
+.fav-link.favourited {
+	color: #0400ff;
+}
+.list-bullet li::before {
+    background-color: #0400ff;
+}
+.list-bullet li:last-child {
+    margin-bottom: 0;
+}
+.service-images {
+    margin-bottom: 30px;
+}
+.submit-section .submit-btn {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 20px;
+    min-width: 150px;
+}
+
+/*-----------------
+    Appoitment List
+-----------------------*/
+
+.booking-det-info h3 a:hover {
+    color: #0400ff;
+}
+.service-action a {
+    color: #0400ff;
+}
+.review-info a:hover {
+    color: #0400ff;
+}
+table.table td a:hover {
+    color: #0400ff;
+}
+.nav-tabs.menu-tabs .nav-item.active .nav-link {
+    color: #0400ff;
+}
+.nav-tabs.menu-tabs .nav-link::after {
+    background: #0400ff;
+}
+.nav-tabs.menu-tabs .nav-link:focus {
+    color: #0400ff;
+}
+.faq-card .card h4 > a:not(.collapsed):after {
+	border-color: #0400ff;
+}
+.login-btn {
+    background-color: #0400ff;
+}
+.herbyCookieConsent .herbyBtn {
+    background: #0400ff !important;
+}
+
+/*-----------------
+    Responsive
+-----------------------*/
+
+@media (min-width: 992px) {
+    .main-nav .has-submenu.active > a {
+        color: #0400ff;
+    }
+    .main-nav .has-submenu.active .submenu li.active > a {
+        color: #0400ff;
+    }
+    .main-nav li .submenu a:hover {
+        color: #0400ff;
+    }
+}
+@media only screen and (max-width: 991.98px) {
+    .main-nav .has-submenu.active > a {
+        color: #0400ff;
+    }
+    .main-nav .has-submenu.active .submenu li.active > a {
+        color: #0400ff;
+    }
+	.mobile-list .get_pro_subscription {
+		background-color: #0400ff;
+	}
+}

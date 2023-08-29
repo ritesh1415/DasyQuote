@@ -1,0 +1,302 @@
+// /* html {
+
+// } */
+
+//  *,
+// *::before,
+// *::after {
+//     box-sizing: inherit;
+// } 
+
+
+// h2.bulgy {
+//     font-family: Raleway;
+//     padding-top: -50px;
+//     padding-bottom: 20px;
+ 
+// }
+// // body.bulgy-radios{
+// //      display: flex;
+// //     align-items: center;
+// //     justify-content: center;
+// //     min-height: 100vh;
+// //     font-family: 'Lato', sans-serif;
+// //     background: #fff;
+// //     box-sizing: border-box;
+// //     height: 100%;
+// //     font-size: 10px;
+// // }
+
+// // h2 {
+// //     font-size: 3rem;
+// //     font-weight: bold;
+// //     margin: 0 0 3rem;
+// // }
+
+// .bulgy-radios {
+//     width: 15rem;
+//     background: #fff;
+//     padding: 3rem 0 3rem 5rem;
+//     border-radius: 1rem;
+
+//     label.cat {
+//         display: block;
+//         position: relative;
+//         height: 1em;
+//         padding-left: 4rem;
+//         margin-bottom: 1.75rem;
+//         cursor: pointer;
+//         font-size: 2.5rem;
+//         user-select: none;
+//         color: #555;
+//         letter-spacing: 1px;
+
+//         &:hover input:not(:checked)~.radio {
+//             opacity: 0.8;
+//         }
+//     }
+
+//     .label {
+//         display: flex;
+//         align-items: center;
+//         padding-right: 3rem;
+
+//         span {
+//             line-height: 1em;
+//         }
+//     }
+
+//     input.rad {
+//         position: absolute;
+//         cursor: pointer;
+//         height: 0;
+//         width: 0;
+//         left: -2000px;
+
+//         &:checked {
+//             ~.radio {
+//                 background-color: #0ac07d;
+//                 transition: background .3s;
+
+//                 &::after {
+//                     opacity: 1;
+//                 }
+//             }
+
+//             ~.label {
+//                 color: #0bae72;
+
+//                 span {
+//                     animation: bulge .5s forwards;
+//                 }
+
+//                 //adjust this if label is going to be more than 20 chars
+//                 @for $i from 1 to 20 {
+//                     span:nth-child(#{$i}) {
+//                         animation-delay: $i * 0.025s;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// .radio {
+//     position: absolute;
+//     top: 0.2rem;
+//     left: 0;
+//     height: 2.5rem;
+//     width: 2.5rem;
+//     background: #c9ded6;
+//     border-radius: 50%;
+
+//     &::after {
+//         content: '';
+//         position: absolute;
+//         opacity: 0;
+//         top: .5rem;
+//         left: .5rem;
+//         width: 1.5rem;
+//         height: 1.5rem;
+//         border-radius: 50%;
+//         background: #fff;
+//     }
+// }
+
+// @keyframes bulge {
+//     50% {
+//         transform: rotate(4deg);
+//         font-size: 1.5em;
+//         font-weight: bold;
+//     }
+
+//     100% {
+//         transform: rotate(0);
+//         font-size: 1em;
+//         font-weight: bold;
+//     }
+// }
+
+$accent:#4B6279;
+$primary:#87745C;
+
+%glyphcon {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  background: #FFD360;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+}
+h2.select-cat {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: $accent;
+}
+ul.quote-option {
+  list-style-type: none;
+  position: relative;
+}
+li.opt-li {
+  display: block;
+  height: 50px;
+  margin-left:20px;
+  text-align: left;
+}
+.card {
+  background: #fff;
+  text-align: center;
+  width: 388px;
+  height: 482px;
+  margin: 50px auto;
+//   box-shadow: 8px 8px 1px 1px $primary;
+box-shadow: 5px 6px 9px 2px
+
+}
+
+//RADIO BUTTON BEGINS
+.radio-item [type="radio"]{
+    display:none;
+
+}
+//-----------------------------------------
+
+//Hides default radio.
+// input[type="radio"] {
+//   display: block;
+//   @extend %glyphcon;
+// }
+
+// //Hover effect for Checkmark.
+// input[type="radio"]:hover + label .outer .inner:before {
+//   opacity: .2;
+//   display: inline-block;
+//   position: absolute;
+//   transform: scale(1);
+//   transition: all .3s ease;
+// }
+// //Effect when box is checked.
+// input[type="radio"]:checked label .inner:before {
+//   opacity: 1;
+//   transform: scale(1.5);
+//   transition: all .2s ease;
+// }
+// //Effect when box is checked.
+// input[type="radio"]:focus + label .outer .inner:before {
+//   opacity: 1;
+//   transform: scale(1.5);
+//   transition: all .3s ease;
+//   -webkit-transition-delay: .75s;
+// }
+// //Color change and ripple animation around checkbox.
+// input[type="radio"]:focus + label .outer {
+//   transform: translate(0.09em, 0.09em);
+//   box-shadow: 0px 0px 0px 0px rgba(200, 200, 200, 0.1);
+//   border: 3px solid $accent;
+//   -webkit-transition-delay: .75s;
+//   -webkit-animation: boom 1s ease-out;
+//   -webkit-animation-delay: .75s;
+// }
+// //Text color change and underline when clicked.
+// input[type="radio"]:focus + label .inlet .text__effect {
+//   transition: all .2s ease-out;
+//   -webkit-transition-delay: .75s;
+//   color:$accent;
+//   border-bottom:1px solid $accent;
+//   border-bottom-height:20px;
+// }
+// //Adds pointer cursor to text when hovered.
+// input[type="radio"] + label .inlet .text__effect {
+//   cursor:pointer;
+// }
+// //Sends paperplane into button.
+// input[type="radio"]:focus + label .outer .inner:after {
+//   opacity: 1;
+//   -webkit-transform: translate(140px, -150px) scale(.01);
+//   transition: all 1s ease;
+// }
+// //Checkbox circle.
+// .outer {
+//   width: 30px;
+//   height: 30px;
+//   border: 3px solid $primary;
+//   position: relative;
+//   display: inline-block;
+//   background: transparent;
+//   margin: 25px 20px 0 30px;
+//   border-radius: 50%;
+//   cursor: pointer;
+//   top: 0;
+//   & .inner:before:hover {
+//     opacity: 1;
+//   }
+// }
+// //Checkmark & paperplane.
+// .inner {
+//   position: relative;
+//   font-family: FontAwesome;
+//   //Checkmark.
+//   &:before {
+//     content: "\f00c";
+//     @extend %glyphcon;
+//     top: 50%;
+//     left: 7px;
+//     color: $accent;
+//     transform: scale(0) translateY(-50%);
+//   }
+//   //Paperplane.
+//   &:after {
+//     content: '\f1d9';
+//     @extend %glyphcon;
+//     left: -140px;
+//     bottom: -180px;
+//     font-size: 2em;
+//     transform: scale(3);
+//     color: $accent;
+//   }
+// }
+// //Label text. Wrapped in span to control border-bottom.
+// .inlet {
+//   position: relative;
+//   top: -27px;
+//   left: 80px;
+//   color: $primary;
+// }
+
+//Animation.
+
+
+// a.res{
+//     height:auto;
+//     width: 100%;
+// }

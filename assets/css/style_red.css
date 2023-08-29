@@ -1,0 +1,325 @@
+.bg-theme {
+	background-color: #dd0303;
+}
+.custom-badge-sm {
+	background: #dd0303;
+}
+.badge-theme {
+	background-color: #dd0303;
+}
+.btn-theme {
+	background-color: #dd0303;
+}
+.btn-theme:hover, .btn-theme:focus {
+	background-color: #dd0303;
+}
+.search-btn .btn {
+    border: 1px solid #dd0303;
+    background: #dd0303;
+}
+#searchResult li:hover {
+	color: #ce0000;
+}
+.cate-title h3 span i {
+    color: #dd0303;
+}
+.viewall a:hover{
+    color: #ce0000;
+}
+.howwork .iconround {
+    color: #dd0303;
+}
+.howwork .iconround .steps {
+    background: #dd0303;
+}
+.view-icons a:hover, .view-icons a:focus  {
+    color: #ce0000;
+}
+.view-icons a.active {
+    color: #dd0303;
+}
+.view-icons a.active:hover, .view-icons a.active:focus {
+    color: #ce0000;
+}
+.pagination > ul li.active a {
+    background: #dd0303;
+    border-color: #dd0303;
+}
+.tags > li {
+    background: #dd0303;
+}
+.notificationlist a {
+    color: #dd0303;
+}
+.jstinput > a {
+    background: #dd0303;
+}
+.updatebtn {
+    background: #dd0303;
+}
+.updatebtn:hover {
+    color: #dd0303;
+    border: 1px solid #dd0303;
+}
+.dash-widget.dash-bg-1 {
+    background-color: #dd0303;
+}
+.pagination > ul li a:hover {
+    background: #dd0303;
+    border-color: #dd0303;
+}
+.search-btn button:hover{
+    background: #ce0000;
+}
+.search-cat a:hover {
+    background: #dd0303;
+    border-color: #dd0303;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #dd0303;
+    border: 1px solid #dd0303;
+}
+.nav-pills .nav-link.active:hover, .nav-pills .show > .nav-link:hover {
+    background: #dd0303;
+}
+.nav-pills .nav-link {
+    color: #dd0303;
+    border: 1px solid #dd0303;
+}
+.msg_cotainer_send {
+    background-color: #dd0303;
+}
+.range-slider.ui-slider .ui-slider-range {
+    background: #dd0303;
+}
+
+/*-----------------
+    Nav Tabs
+-----------------------*/
+
+.nav-tabs.nav-tabs-solid > .active > a,
+.nav-tabs.nav-tabs-solid > .active > a:hover,
+.nav-tabs.nav-tabs-solid > .active > a:focus {
+    background-color: #dd0303;
+    border-color: #dd0303;
+}
+.nav-tabs.nav-tabs-solid > li > a.active,
+.nav-tabs.nav-tabs-solid > li > a.active:hover,
+.nav-tabs.nav-tabs-solid > li > a.active:focus {
+    background-color: #dd0303;
+    border-color: #dd0303;
+}
+.nav-tabs.nav-tabs-top > li > a.active,
+.nav-tabs.nav-tabs-top > li > a.active:hover,
+.nav-tabs.nav-tabs-top > li > a.active:focus {
+    border-top-color: #dd0303;
+}
+.nav-tabs.nav-tabs-bottom > li > a.active, 
+.nav-tabs.nav-tabs-bottom > li > a.active:hover, 
+.nav-tabs.nav-tabs-bottom > li > a.active:focus {
+    border-bottom-color: #dd0303;
+}
+.account-footer a {
+    color: #dd0303;
+}
+
+/*-----------------
+    Footer
+-----------------------*/
+
+.footer-contact-info .footer-address span i {
+    color: #dd0303;
+}
+.footer-contact-info p i {
+    color: #dd0303;
+}
+.footer .footer-bottom .copyright-text p a {
+    color: #dd0303;
+}
+.footer .footer-bottom .copyright-text p a:hover {
+    color: #dd0303;
+}
+.footer .social-icon ul li a:hover {
+    background-color: rgba(221, 3, 3, 0.05);
+    color: #dd0303 !important;
+}
+.policy-menu li a:hover,
+.policy-menu li a:focus {
+    color: #dd0303;
+}
+
+/*-----------------
+    Header
+-----------------------*/
+
+.main-nav > li.active > a {
+    color: #dd0303;
+}
+.header-navbar-rht > li a.header-login:hover, .header-navbar-rht > li a.header-login:focus {
+    background-color: #ce0000;
+    border-color: #ce0000;
+}
+.main-nav > li > a::after {
+    background: #dd0303;
+}
+.header-navbar-rht li > .dropdown-menu a:hover {
+    color: #dd0303;
+}
+.header-navbar-rht li > a.header-login {
+    background-color: #dd0303;
+}
+.header-navbar-rht .dropdown-menu .dropdown-item:hover {
+    color: #dd0303;
+}
+
+/*-----------------
+    Mobile Menu
+-----------------------*/
+
+.menu-close {
+    color: #dd0303;
+}
+.settings-menu ul li a.active {
+    color: #dd0303 !important;
+}
+.pricing-box .pricing-selected .card {
+    background-color: #dd0303;
+    border-color: #dd0303;
+}
+.pricing-box .pricing-selected .btn {
+    color: #dd0303;
+}
+.btn.btn-white {
+    color: #dd0303 !important;
+}
+.btn-primary {
+    background-color: #dd0303;
+    border-color: #dd0303;
+}
+.btn-primary {
+    background-color: #dd0303;
+    border: 1px solid #dd0303;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.active,
+.btn-primary:active,
+.open > .dropdown-toggle.btn-primary {
+    background-color: #ce0000;
+    border: 1px solid #ce0000;
+}
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary.focus:active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover {
+    background-color: #ce0000;
+    border: 1px solid #ce0000;
+}
+.btn-primary.active:not(:disabled):not(.disabled),
+.btn-primary:active:not(:disabled):not(.disabled),
+.show > .btn-primary.dropdown-toggle {
+    background-color: #ce0000;
+    border-color: #ce0000;
+    color: #fff;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #dd0303;
+    border-color: #dd0303;
+}
+.service-widget .service-content .title a:hover, .service-widget .service-content .title a:hover {
+    color: #dd0303;
+}
+.section-header h2::after {
+    background: #dd0303;
+}
+.preloader-square-swapping .cssload-square-green {
+    background: #dd0303;
+}
+.fav-link:hover {
+	color: #dd0303;
+}
+.fav-link.favourited {
+	color: #dd0303;
+}
+.list-bullet li::before {
+    background-color: #dd0303;
+}
+.list-bullet li:last-child {
+    margin-bottom: 0;
+}
+.service-images {
+    margin-bottom: 30px;
+}
+.submit-section .submit-btn {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 20px;
+    min-width: 150px;
+}
+
+/*-----------------
+    Appoitment List
+-----------------------*/
+
+.booking-det-info h3 a:hover {
+    color: #dd0303;
+}
+.service-action a {
+    color: #dd0303;
+}
+.review-info a:hover {
+    color: #dd0303;
+}
+table.table td a:hover {
+    color: #dd0303;
+}
+.nav-tabs.menu-tabs .nav-item.active .nav-link {
+    color: #dd0303;
+}
+.nav-tabs.menu-tabs .nav-link::after {
+    background: #dd0303;
+}
+.nav-tabs.menu-tabs .nav-link:focus {
+    color: #dd0303;
+}
+.faq-card .card h4 > a:not(.collapsed):after {
+	border-color: #dd0303;
+}
+.login-btn {
+    background-color: #dd0303;
+}
+.herbyCookieConsent .herbyBtn {
+    background: #dd0303 !important;
+}
+
+/*-----------------
+    Responsive
+-----------------------*/
+
+@media (min-width: 992px) {
+    .main-nav .has-submenu.active > a {
+        color: #dd0303;
+    }
+    .main-nav .has-submenu.active .submenu li.active > a {
+        color: #dd0303;
+    }
+    .main-nav li .submenu a:hover {
+        color: #dd0303;
+    }
+}
+@media only screen and (max-width: 991.98px) {
+    .main-nav .has-submenu.active > a {
+        color: #dd0303;
+    }
+    .main-nav .has-submenu.active .submenu li.active > a {
+        color: #dd0303;
+    }
+	.mobile-list .get_pro_subscription {
+		background-color: #dd0303;
+	}
+}
